@@ -36,7 +36,7 @@ export default function LoginPage() {
         toast.error(error.message);
       } else {
         toast.success("Authentication successful.", { description: "Welcome to the Hub." });
-        router.push("/"); // Redirect to the main dashboard
+        router.push("/dashboard"); // Redirect to the main dashboard
       }
     }
     
