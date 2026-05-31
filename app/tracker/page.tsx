@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { supabase } from "@/lib/supabase";
 import { toast } from "sonner";
 
-export function DailyTracker() {
+export default function DailyTracker() {
   const [adherenceMinutes, setAdherenceMinutes] = useState(0);
   const [recallSheets, setRecallSheets] = useState(0);
   const [compressionTests, setCompressionTests] = useState(0);
